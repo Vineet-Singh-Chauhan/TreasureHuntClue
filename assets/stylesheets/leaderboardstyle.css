@@ -1,0 +1,45 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.footer-07 a {
+  color: white !important;
+}
+.topBar{
+  background: linear-gradient(to right,#098fa6,#047f95);
+  border-radius : 5px 5px 0 0; 
+}
+.rankHolder:hover{
+  background-color: rgba(255, 255, 255, 0.105) !important;
+}
+.navbar{
+  top: 0;
+}
+
+.footer-07 ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*----footer--section--*/
+
+.footer-07 {
+  z-index: 99999;
+  position: absolute;
+  width: 100%;
+  background: #191919;
+}
+
+.footer-07 i {
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #00B4DB;
+}
+
+.footer-07 i:hover {
+  color: #00B4DB;
+  transform: scale(1.2);
+}

@@ -1,0 +1,194 @@
+.shadow{
+    box-shadow: 30px -20px 0px 16px rgba(0,131,176,0.75) !important;
+    -webkit-box-shadow: 30px -20px 0px 16px rgba(0,131,176,0.75) !important;
+    -moz-box-shadow: 30px -20px 0px 16px rgba(0,131,176,0.75) !important;
+}
+.clipped{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    height:300px;
+    width:300px;
+    
+}
+.eventImg{
+    /* background-image: url("../../stylesheet/images/singing.jpg"); */
+    z-index:2 !important;
+    background-size: cover;
+    /* transform: skewX(10deg); */
+}
+.eventImg2{
+    /* background-image: url("../../stylesheet/images/singing.jpg"); */
+    z-index:2 !important;
+    background-size: cover;
+    /* transform: skewX(10deg); */
+}
+.shadowElement{
+    background: linear-gradient(45deg, #00B4DB 0%, #078fad  51%, #0083b0  100%);
+    position:absolute;
+    top:20px;
+    right:70px;
+    z-index: -1;
+    /* transform: skewX(10deg); */
+}
+
+.shadowElement2{
+    background: linear-gradient(45deg, #00B4DB 0%, #078fad  51%, #0083b0  100%);
+    position:absolute;
+    top:20px;
+    left:70px;
+    z-index: -1;
+    /* transform: skewX(10deg); */
+}
+
+
+.img-container{
+    width:fit-content;
+    position: relative;
+}
+.CONATINERP{
+    width: auto !important;
+    z-index:-2;
+    gap:5rem !important
+}
+.content button{
+    width:fit-content !important;
+}
+@media(max-width:1000px) {
+    .clipped{
+        height:200px;
+        width:200px;
+        
+    }
+}
+@media(max-width:770px){
+    .content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:auto;
+        
+
+    }
+    .img-container2{
+        order:1 !important;
+    }
+    .content2{
+        order:2 !important;
+    }
+    .shadowElement{
+        right: unset;
+        margin: auto ;
+    }
+    .shadowElement2{
+        left: unset;
+        margin: auto ;
+    }
+}
+@media(max-width:638px){
+    
+    .CONATINERP,.img-container{
+        width:300px;
+        flex-direction:column ;
+        
+    }
+    .content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:auto;
+        
+
+    }
+    .eventImg{
+        margin: auto;
+    }
+    .eventImg2{
+        margin: auto;
+       
+    }
+    .content .button1{
+        margin:auto !important;
+    }
+    .img-container{
+        /* margin-bottom:20px; */
+        margin: 20px auto !important;
+       
+    }
+    .img-container2{
+        order:1 !important;
+    }
+    .content2{
+        order:2 !important;
+    }
+    .shadowElement{
+        right: unset;
+        margin: auto ;
+    }
+    .shadowElement2{
+        left: unset;
+        margin: auto ;
+    }
+    
+}
+@media(max-width:400px){
+    .eventImg{
+        /* height: 200px;
+        width: 200px; */
+        margin: auto;
+    }
+    .eventImg2{
+        /* height: 200px;
+        width: 200px; */
+        margin: auto;
+    }
+    .img-container{
+        width:200px
+    }
+   
+}
+@media(max-width:400px){
+    .group1{
+        padding: 0 !important;;
+    }
+    
+}
+
+.nukkadImg{
+    background-image: url(../../stylesheet/images/nukkad.png);
+    background-position: center;
+}
+.swarImg{
+    background-image: url(../../stylesheet/gallery/gallery16.jpg);
+    background-position: center;
+}
+.danceImg{
+    background-image: url(../../stylesheet/gallery/9.jpg);
+    background-position: center;
+}
+.openImg{
+    background-image: url(../../stylesheet/gallery/14.jpg);
+    background-position: center;
+}
+.fashionImg{
+    background-image: url(../../stylesheet/gallery/19.jpg);
+    background-position: center;
+}
+.faceImg{
+    background-image: url(../../stylesheet/gallery/face\ painting.jpg);
+    background-position: center;
+}
+.rangImg{
+    background-image: url(../../stylesheet/images/rang.JPG);
+    background-position: center;
+}
+.ojjImg{
+    background-image: url(../../stylesheet/gallery/gallery15.jpg);
+    background-position: center;
+}
+.debateImg{
+    background-image: url(../../stylesheet/gallery/6.jpg);
+    background-position: center;
+}
+.treassureImg{
+    background-image: url(../../stylesheet/gallery/treasure-hunt.JPG);
+    background-position: center;
+}

@@ -1,0 +1,24 @@
+.shadowElement{
+    top:50px;
+    right: unset;
+    margin: auto ;
+}
+.shadowElement2{
+    top:50px;
+    left: unset;
+    margin: auto ;
+}
+
+.clipped{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    height:400px;
+    width:400px;
+    
+}
+@media(max-width:1000px) {
+    .clipped{
+        height:200px;
+        width:200px;
+        
+    }
+}
